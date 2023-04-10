@@ -1,14 +1,14 @@
-#include "Structures.h"
+п»ї#include "Structures.h"
 #include <iostream>
-// #include "Data.h" // Ошибка т.к. дублируется объявление переменных
+// #include "Data.h" // РћС€РёР±РєР° С‚.Рє. РґСѓР±Р»РёСЂСѓРµС‚СЃСЏ РѕР±СЉСЏРІР»РµРЅРёРµ РїРµСЂРµРјРµРЅРЅС‹С…
 
-extern int _A; // модификатор объявления переменной, указывающий на то, что она уже объявлена в каком-либо другом файле
+extern int _A; // РјРѕРґРёС„РёРєР°С‚РѕСЂ РѕР±СЉСЏРІР»РµРЅРёСЏ РїРµСЂРµРјРµРЅРЅРѕР№, СѓРєР°Р·С‹РІР°СЋС‰РёР№ РЅР° С‚Рѕ, С‡С‚Рѕ РѕРЅР° СѓР¶Рµ РѕР±СЉСЏРІР»РµРЅР° РІ РєР°РєРѕРј-Р»РёР±Рѕ РґСЂСѓРіРѕРј С„Р°Р№Р»Рµ
 
 void print_person(const person& P){
-	std::cout << "Имя:      " << P.name << std::endl;
-	std::cout << "Возраст:  " << P.age << std::endl;
-	std::cout << "Работа:   " << P.job << std::endl;
-	std::cout << "Зарплата: " << P.salary << std::endl;
+	std::cout << "РРјСЏ:      " << P.name << std::endl;
+	std::cout << "Р’РѕР·СЂР°СЃС‚:  " << P.age << std::endl;
+	std::cout << "Р Р°Р±РѕС‚Р°:   " << P.job << std::endl;
+	std::cout << "Р—Р°СЂРїР»Р°С‚Р°: " << P.salary << std::endl;
 	std::cout << "A = " << _A << std::endl;
 }
 
